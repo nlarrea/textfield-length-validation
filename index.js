@@ -19,6 +19,7 @@ const ensureContentLength = (content, max) => {
  * @param {Object} textField
  * @param {Object} counter      span that contains the countdown of chars
  * @param {number} maxCount     maximum admited chars
+ * @returns {boolean}
  */
 exports.lengthValidation = function(textField, counter, maxCount){
     textField.onkeyup = function(){
@@ -27,6 +28,8 @@ exports.lengthValidation = function(textField, counter, maxCount){
         if (ensureContentLength(this.value, maxCount)) {
             alert(`The length of this input should be a maximum of ${maxCount} characters!`);
             return false;
+        } else {
+            return true;
         }
     }
 }

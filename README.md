@@ -47,3 +47,7 @@ const maxCharacters = 10;
 
 lengthValidation(input, counter, maxCharacters);
 ```
+
+<br>
+
+As it returns a `boolean`, it can be used to disable a submit button.
