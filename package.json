@@ -11,7 +11,9 @@
     "url": "git+https://github.com/nlarrea/textfield-length-validation.git"
   },
   "keywords": [
-    "textfield"
+    "textfield",
+    "length",
+    "validation"
   ],
   "author": "nlarrea_ <larrea.naia@gmail.com> (https://www.npmjs.com/~nlarrea_)",
   "license": "MIT",
