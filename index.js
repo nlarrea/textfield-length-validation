@@ -12,6 +12,7 @@ const ensureContentLength = (content, max) => {
 }
 
 /**
+ * Modifies the HTML counter.
  * Returns a false only if the given text field length is greater than a maximum.
  * 
  * @listens onkeyup
@@ -19,7 +20,7 @@ const ensureContentLength = (content, max) => {
  * @param {Object} counter      span that contains the countdown of chars
  * @param {number} maxCount     maximum admited chars
  */
-exports.textFieldLengthValidation = function(textField, counter, maxCount){
+exports.lengthValidation = function(textField, counter, maxCount){
     textField.onkeyup = function(){
         counter.innerHTML = maxCount - this.value.length;
 

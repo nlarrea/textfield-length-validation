@@ -1,0 +1,22 @@
+{
+  "name": "textfield-length-validation",
+  "version": "0.1.0",
+  "description": "This module modifies the character countdown for text fields and shows a message if it has more characters than admited.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlarrea/textfield-length-validation.git"
+  },
+  "keywords": [
+    "textfield"
+  ],
+  "author": "nlarrea_ <larrea.naia@gmail.com> (https://www.npmjs.com/~nlarrea_)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nlarrea/textfield-length-validation/issues"
+  },
+  "homepage": "https://github.com/nlarrea/textfield-length-validation#readme"
+}
