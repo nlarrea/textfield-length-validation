@@ -1,6 +1,6 @@
 {
   "name": "textfield-length-validation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This module modifies the character countdown for text fields and shows a message if it has more characters than admited.",
   "main": "index.js",
   "scripts": {
